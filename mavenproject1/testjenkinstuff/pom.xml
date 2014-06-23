@@ -151,6 +151,17 @@
             <version>1.2.2</version>
         </dependency>
         <dependency>
+            <groupId>maven</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>3.0.1</version>
+            <type>plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>maven-plugins</groupId>
+            <artifactId>maven-findbugs-plugin</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
             <version>7.0</version>
